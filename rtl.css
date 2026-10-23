@@ -1,0 +1,37 @@
+/* ==========================================================================
+   Technotouch Metals Trading L.L.C - Dubai, UAE
+   RTL / LTR Bidirectional Fine-Tuning & Font Fallbacks
+   ========================================================================== */
+
+/* Arabic Specific Typography (Default) */
+html[dir="rtl"] body {
+  font-family: 'Cairo', 'Tajawal', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  letter-spacing: normal;
+}
+
+html[dir="rtl"] .hero-title {
+  line-height: 1.3;
+}
+
+/* English Specific Typography (LTR) */
+html[dir="ltr"] body {
+  font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  letter-spacing: -0.01em;
+}
+
+html[dir="ltr"] .hero-title {
+  line-height: 1.15;
+}
+
+html[dir="ltr"] .hero-badge {
+  letter-spacing: 0.02em;
+}
+
+/* Modal text direction adaptations */
+html[dir="ltr"] .modal-project-location svg {
+  margin-right: 0.4rem;
+}
+
+html[dir="rtl"] .modal-project-location svg {
+  margin-left: 0.4rem;
+}
