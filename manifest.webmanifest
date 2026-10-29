@@ -1,0 +1,39 @@
+{
+ "name": "Muqawil Pro",
+ "short_name": "Muqawil Pro",
+ "start_url": "/",
+ "scope": "/",
+ "display": "standalone",
+ "dir": "rtl",
+ "lang": "ar",
+ "background_color": "#ffffff",
+ "theme_color": "#E8710F",
+ "icons": [
+  {
+   "src": "/icon-192.png",
+   "sizes": "192x192",
+   "type": "image/png",
+   "purpose": "any"
+  },
+  {
+   "src": "/icon-512.png",
+   "sizes": "512x512",
+   "type": "image/png",
+   "purpose": "any"
+  },
+  {
+   "src": "/icon-maskable.png",
+   "sizes": "512x512",
+   "type": "image/png",
+   "purpose": "maskable"
+  }
+ ],
+ "id": "/",
+ "description": "Contractor app: projects, workers, attendance, payroll, expenses, daily production, quotations and receipts — إدارة مشاريع المقاولات",
+ "orientation": "portrait",
+ "categories": [
+  "business",
+  "productivity",
+  "finance"
+ ]
+}
